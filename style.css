@@ -284,14 +284,20 @@ body{
 .contacto__form label{
 	display: flex;
 	flex-direction: column;
-	
+}
+.contacto__form textarea{
+	border-radius: 6px;
+	padding: .4rem;
+	resize: none;
+	outline: none;
+	border: .1px solid #aaa;
 }
 .contacto__input{
 	height: 1.5rem;
 	border-radius: 6px;
-	border: var(--Negro) solid .1px;
+	border: #aaa solid .1px;
 	outline: none;
-	padding-left: 10px;
+	padding-left: .4rem;
 }
 .contacto__img{
 	object-fit: cover;
@@ -313,7 +319,8 @@ body{
 	transition: .5s;
 	cursor: pointer;
 	text-decoration: none;
-	color: var(--Negro)
+	color: var(--Negro);
+	font-size: 16px;
 }
 .btn:hover{
 	color: var(--Blanco);
