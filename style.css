@@ -259,7 +259,7 @@ body{
 	gap: 1rem;
 }
 .experiencia__btn{
-	width: 100px;
+	width: 110px;
 }
 .experiencia__img{
 	height: 370px;
@@ -302,6 +302,9 @@ body{
 
 } */
 .btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border: 1px solid var(--Azul);
 	background-color: var(--Blanco);
 	border-radius: 6px;
