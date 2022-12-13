@@ -312,6 +312,8 @@ body{
 	padding: 0 .5rem;
 	transition: .5s;
 	cursor: pointer;
+	text-decoration: none;
+	color: var(--Negro)
 }
 .btn:hover{
 	color: var(--Blanco);
