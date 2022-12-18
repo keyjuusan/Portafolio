@@ -187,25 +187,27 @@
         </section>
 
         <section id="6" class="menu__section--contacto menu__section">
+            
             <img src="./img/contact.png" alt="Img-contacto" class="contacto__img">
-            <form netlify name="contacto__form" class="contacto__form">
+
+            <form action="enviar.php" method="post" name="contacto__form" class="contacto__form">
                 <h1 class="contacto__h1">Contacto</h1>
                 <p class="contacto__p">¿Quieres contactarme? <br>
                     Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
                 <label for="nombre">
-                Nombre y Apellido: <input class="contacto__form--nombre contacto__input" type="text">
+                Nombre y Apellido: <input name="nombre" class="contacto__form--nombre contacto__input" type="text">
                 </label>
                 
                 <label for="email">
-                Email: <input class="contacto__form--email contacto__input" type="email">
+                Email: <input name="email" class="contacto__form--email contacto__input" type="email">
                 </label>
                 
                 <label for="asunto">
-                Asunto: <input class="contacto__form--asunto contacto__input" type="text">
+                Asunto: <input name="asunto" class="contacto__form--asunto contacto__input" type="text">
                 </label>
                 
-                <textarea id="" cols="30" rows="10" class="contacto__form--textarea"></textarea>
-                <input type="button" value="Enviar" class="contacto__form--btn btn">
+                <textarea name="mensaje" id="" cols="30" rows="10" class="contacto__form--textarea"></textarea>
+                <input type="submit" value="Enviar" class="contacto__form--btn btn">
             </form>
         </section>
 
