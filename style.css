@@ -522,7 +522,7 @@ body {
 
 	.experiencia__article {
 		flex-direction: column;
-		width: 100%;
+		width: calc( 100% - 2rem);
 		height: auto;
 		align-items: flex-start;
 	}
