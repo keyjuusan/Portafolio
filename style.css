@@ -14,7 +14,7 @@
 
 body {
 	display: flex;
-	gap: 32px;
+	gap: 15px;
 	flex-direction: column;
 	background-color: var(--Blanco);
 	color: var(--Negro);
@@ -93,7 +93,7 @@ body {
 	flex-direction: column;
 	width: 90%;
 	margin: 0 auto;
-	gap: 48px;
+	gap: 35px;
 }
 
 .menu__section {
