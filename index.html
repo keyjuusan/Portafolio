@@ -150,7 +150,7 @@
                     <div class="formacion__div__hijo">
                     <img class="formacion__div__img" src="./img/Alura.svg" alt="">
                     </div>
-                    <p class="formacion__div__p"><b>Formacion en UX/UI Design</b></p>
+                    <p class="formacion__div__p"><b>Formacion en UX Design</b></p>
                     <p class="formacion__div__p">2022 - Alura </p>
                 </div>
             </article>
@@ -190,23 +190,23 @@
             
             <img src="./img/contact.png" alt="Img-contacto" class="contacto__img">
 
-            <form action="enviar.php" method="post" name="contacto__form" class="contacto__form">
+            <form action="https://formsubmit.co/heykervargas13@gmail.com" method="post" name="contacto__form" class="contacto__form">
                 <h1 class="contacto__h1">Contacto</h1>
                 <p class="contacto__p">¿Quieres contactarme? <br>
                     Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
                 <label for="nombre">
-                Nombre y Apellido: <input name="nombre" class="contacto__form--nombre contacto__input" type="text">
+                Nombre y Apellido: <input name="nombre" class="contacto__form--nombre contacto__input" type="text" required>
                 </label>
                 
                 <label for="email">
-                Email: <input name="email" class="contacto__form--email contacto__input" type="email">
+                Email: <input name="email" class="contacto__form--email contacto__input" type="email" required>
                 </label>
                 
                 <label for="asunto">
-                Asunto: <input name="asunto" class="contacto__form--asunto contacto__input" type="text">
+                Asunto: <input name="asunto" class="contacto__form--asunto contacto__input" type="text" required>
                 </label>
                 
-                <textarea name="mensaje" id="" cols="30" rows="10" class="contacto__form--textarea"></textarea>
+                <textarea name="mensaje" id="" cols="30" rows="10" class="contacto__form--textarea" required></textarea>
                 <input type="submit" value="Enviar" class="contacto__form--btn btn">
             </form>
         </section>
