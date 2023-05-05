@@ -120,8 +120,9 @@ body {
 
 .presentacion__links {
 	display: flex;
-	gap: 33px;
+	flex-direction: row;
 	align-items: center;
+	gap: 3rem;
 }
 
 .presentacion__links__a {
@@ -452,10 +453,15 @@ body {
 		height: 150px;
 	}
 
+	.presentacion__links {
+	justify-content: space-between;
+	gap: 0;
+	}
+
 	.caja {
 		position: relative;
 		height: 175px;
-		width: 48%;
+		width: 47%;
 		/* transition: 0.5s; */
 		box-shadow: 1px 1px 2px 1px #bbb;
 		font-size: 16px;
@@ -465,12 +471,14 @@ body {
 		display: flex;
 		flex-direction: row;
 		gap: 16px;
-		justify-content: center;
+		justify-content: space-between;
+		align-items: center;
 		flex-wrap: wrap;
 	}
 
 	.menu__section--pasatiempos article {
-		justify-content: flex-start;
+		justify-content: space-between;
+		align-items: center;
 		flex-wrap: wrap;
 	}
 
