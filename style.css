@@ -168,7 +168,9 @@ body {
 .caja {
 	position: relative;
 	height: 175px;
+	min-height: 175px;
 	width: 175px;
+	min-width: 175px;
 	/* transition: 0.5s; */
 	box-shadow: 1px 1px 2px 1px #bbb;
 	font-size: 16px;
@@ -198,6 +200,7 @@ body {
 	flex-direction: row;
 	gap: 16px;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .menu__section--pasatiempos {
