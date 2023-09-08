@@ -270,6 +270,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	gap: 30px;
 }
 
@@ -279,15 +280,31 @@ body {
 
 .experiencia__article {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
 	padding: 1rem;
-	width: 100%;
+	width: 400px;
 	height: 400px;
 	gap: 16px;
 }
 
+.experiencia__article>img{
+	border-radius: 6px;
+	max-height: 70%;
+	order: 0;
+	object-fit: cover;
+}
+
+.experiencia__articulos{
+	width: 80%;
+	gap:1rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
 .experiencia__article__div {
+	order: 1;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
